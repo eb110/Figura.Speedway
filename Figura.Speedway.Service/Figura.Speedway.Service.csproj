@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Figura.SpeedwayRider.DataContract" Version="0.0.6" />
+    <PackageReference Include="Figura.Speedway.ResultsApiReader" Version="0.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Figura.Speedway.Model\Figura.Speedway.Model.csproj" />
+  </ItemGroup>
+
+</Project>
