@@ -36,7 +36,7 @@ namespace Figura.Speedway.Service
             {
                 for (int i = 0; i < speedwayEvent.Count; i++)
                 {
-                    if (speedwayEvent[i].Rider.Surname.Equals(rider.Surname) && speedwayEvent[i].Rider.Name.Contains(rider.Name))
+                    if (speedwayEvent[i].Rider.Surname.Equals(rider.Surname.ToUpper()) && rider.Name.Contains(speedwayEvent[i].Rider.Name))
                     {
                         speedwayEvent[i].Rider = rider;
                         break;
