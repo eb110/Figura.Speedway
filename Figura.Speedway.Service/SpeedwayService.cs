@@ -3,8 +3,6 @@ using Figura.Speedway.Model.Parameters;
 using Figura.Speedway.ResultsApiReader;
 using Figura.SpeedwayRider.DataContract;
 using Figura.SpeedwayRider.Model.DAO;
-using Newtonsoft.Json;
-using System.Text;
 
 namespace Figura.Speedway.Service
 {
